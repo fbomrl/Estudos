@@ -21,15 +21,15 @@ func main() {
 			fmt.Printf("PlingPlong")
 			break
 		}
-		fmt.Println("Pling")
+		fmt.Printf("Pling")
 	case n%5 == 0:
 		if n%7 == 0 {
 			fmt.Printf("PlangPlong")
 			break
 		}
-		fmt.Println("Plang")
+		fmt.Printf("Plang")
 	case n%7 == 0:
-		fmt.Println("Plong")
+		fmt.Printf("Plong")
 	default:
 		fmt.Println(n)
 	}
